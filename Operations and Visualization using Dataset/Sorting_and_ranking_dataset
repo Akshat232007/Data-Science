@@ -1,0 +1,18 @@
+import pandas as pd
+
+df = pd.read_csv("Operations and Visualization using Dataset\\Resource\\Loan Dataset.csv")
+
+print("Annual Income in Ascending Order:")
+print(df.sort_values("Annual_Income").head(10))
+
+print("\nAnnual Income in Descending Order:")
+print(df.sort_values("Annual_Income", ascending=False).head(10))
+
+print("\nCredit Score in Descending Order:")
+print(df.sort_values("Credit_Score", ascending=False).head(10))
+
+print("\nTop 5 Applicants by Credit Score:")
+print(df.sort_values("Credit_Score", ascending=False).head(5))
+
+print("\nBottom 3 Applicants by Credit Score:")
+print(df.sort_values("Credit_Score").head(3))
