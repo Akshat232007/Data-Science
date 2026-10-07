@@ -1,0 +1,8 @@
+print("================================")
+print("          MY PROFILE")
+print("================================")
+print("Name       : Akshat Halwai")
+print("Roll No.   : S087")
+print("Course     : B.Sc. Computer Science")
+print("Language   : Python")
+print("================================")
